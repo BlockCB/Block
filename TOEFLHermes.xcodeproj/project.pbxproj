@@ -1,0 +1,714 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCF087F4E87A5EFBBAC679AE /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9710CF960F36794DBB594431 /* Pods.framework */; };
+		E60AE9871C9EF58D002C8974 /* ImpactMTStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = E60AE9861C9EF58D002C8974 /* ImpactMTStd.otf */; };
+		E60AE9881C9EF59B002C8974 /* ImpactMTStd.otf in Sources */ = {isa = PBXBuildFile; fileRef = E60AE9861C9EF58D002C8974 /* ImpactMTStd.otf */; };
+		E61F25F81C5C758E00A16F91 /* TopNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61F25F71C5C758E00A16F91 /* TopNavigationView.swift */; };
+		E630542C1C801AB90033BBD2 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E630542B1C801AB90033BBD2 /* TabbarViewController.swift */; };
+		E630542E1C8023C00033BBD2 /* SampleTaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E630542D1C8023C00033BBD2 /* SampleTaskTableViewCell.swift */; };
+		E63054331C82F2B00033BBD2 /* AudioPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63054321C82F2B00033BBD2 /* AudioPlayerView.swift */; };
+		E63054351C83F07A0033BBD2 /* LexiconCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63054341C83F07A0033BBD2 /* LexiconCardView.swift */; };
+		E63A25E91C5DA1F200B7E21C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A25E81C5DA1F200B7E21C /* BaseViewController.swift */; };
+		E63A25EB1C5DC77200B7E21C /* SampleTaskListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A25EA1C5DC77200B7E21C /* SampleTaskListViewController.swift */; };
+		E63A25ED1C5E4CD100B7E21C /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A25EC1C5E4CD100B7E21C /* CardView.swift */; };
+		E63A25EF1C5E52D900B7E21C /* SampleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E63A25EE1C5E52D900B7E21C /* SampleDetailViewController.swift */; };
+		E682A02C1C603F6C00F570D0 /* WordCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E682A02B1C603F6C00F570D0 /* WordCardView.swift */; };
+		E688DA621C66036100069240 /* RepeatingTopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E688DA611C66036100069240 /* RepeatingTopTableViewCell.swift */; };
+		E6EF44F81C5B9E860076256D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF44F71C5B9E860076256D /* AppDelegate.swift */; };
+		E6EF44FA1C5B9E860076256D /* SampleTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF44F91C5B9E860076256D /* SampleTopViewController.swift */; };
+		E6EF44FC1C5B9E860076256D /* RepeatingTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF44FB1C5B9E860076256D /* RepeatingTopViewController.swift */; };
+		E6EF44FF1C5B9E860076256D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6EF44FD1C5B9E860076256D /* Main.storyboard */; };
+		E6EF45011C5B9E860076256D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6EF45001C5B9E860076256D /* Assets.xcassets */; };
+		E6EF45041C5B9E860076256D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6EF45021C5B9E860076256D /* LaunchScreen.storyboard */; };
+		E6EF450F1C5B9E860076256D /* TOEFLHermesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF450E1C5B9E860076256D /* TOEFLHermesTests.swift */; };
+		E6EF451A1C5B9E860076256D /* TOEFLHermesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF45191C5B9E860076256D /* TOEFLHermesUITests.swift */; };
+		E6EF45281C5BA1140076256D /* Uitils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF45271C5BA1140076256D /* Uitils.swift */; };
+		E6EF452B1C5BAC000076256D /* PracticeTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF452A1C5BAC000076256D /* PracticeTopViewController.swift */; };
+		E6EF452D1C5BAC1E0076256D /* LexiconTopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF452C1C5BAC1D0076256D /* LexiconTopViewController.swift */; };
+		E6EF452F1C5BAE0B0076256D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EF452E1C5BAE0B0076256D /* LoginViewController.swift */; };
+		E6F439971C93CE9F005E1966 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F439961C93CE9F005E1966 /* SDWebImage.framework */; };
+		E6F4399B1C94609B005E1966 /* MXParallaxHeader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6F4399A1C94609B005E1966 /* MXParallaxHeader.framework */; };
+		E6F4399D1C9460FB005E1966 /* RepeatingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F4399C1C9460FB005E1966 /* RepeatingDetailViewController.swift */; };
+		E6F4399F1C9464BD005E1966 /* RocketHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E6F4399E1C9464BD005E1966 /* RocketHeader.xib */; };
+		E6F439AE1C9ED7B2005E1966 /* RepeatingPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F439AD1C9ED7B2005E1966 /* RepeatingPlayerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E6EF450B1C5B9E860076256D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6EF44EC1C5B9E860076256D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6EF44F31C5B9E860076256D;
+			remoteInfo = TOEFLHermes;
+		};
+		E6EF45161C5B9E860076256D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6EF44EC1C5B9E860076256D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6EF44F31C5B9E860076256D;
+			remoteInfo = TOEFLHermes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36F15EA9C8318225FFA39C08 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9710CF960F36794DBB594431 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E60AE9861C9EF58D002C8974 /* ImpactMTStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ImpactMTStd.otf; sourceTree = "<group>"; };
+		E61F25F71C5C758E00A16F91 /* TopNavigationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopNavigationView.swift; sourceTree = "<group>"; };
+		E630542B1C801AB90033BBD2 /* TabbarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		E630542D1C8023C00033BBD2 /* SampleTaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTaskTableViewCell.swift; sourceTree = "<group>"; };
+		E63054321C82F2B00033BBD2 /* AudioPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerView.swift; sourceTree = "<group>"; };
+		E63054341C83F07A0033BBD2 /* LexiconCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LexiconCardView.swift; sourceTree = "<group>"; };
+		E63A25E81C5DA1F200B7E21C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E63A25EA1C5DC77200B7E21C /* SampleTaskListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTaskListViewController.swift; sourceTree = "<group>"; };
+		E63A25EC1C5E4CD100B7E21C /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E63A25EE1C5E52D900B7E21C /* SampleDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleDetailViewController.swift; sourceTree = "<group>"; };
+		E682A02B1C603F6C00F570D0 /* WordCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WordCardView.swift; sourceTree = "<group>"; };
+		E688DA611C66036100069240 /* RepeatingTopTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatingTopTableViewCell.swift; sourceTree = "<group>"; };
+		E6EF44F41C5B9E860076256D /* TOEFLHermes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOEFLHermes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EF44F71C5B9E860076256D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E6EF44F91C5B9E860076256D /* SampleTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTopViewController.swift; sourceTree = "<group>"; };
+		E6EF44FB1C5B9E860076256D /* RepeatingTopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepeatingTopViewController.swift; sourceTree = "<group>"; };
+		E6EF44FE1C5B9E860076256D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E6EF45001C5B9E860076256D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E6EF45031C5B9E860076256D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E6EF45051C5B9E860076256D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6EF450A1C5B9E860076256D /* TOEFLHermesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOEFLHermesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EF450E1C5B9E860076256D /* TOEFLHermesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOEFLHermesTests.swift; sourceTree = "<group>"; };
+		E6EF45101C5B9E860076256D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6EF45151C5B9E860076256D /* TOEFLHermesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOEFLHermesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EF45191C5B9E860076256D /* TOEFLHermesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TOEFLHermesUITests.swift; sourceTree = "<group>"; };
+		E6EF451B1C5B9E860076256D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6EF45271C5BA1140076256D /* Uitils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Uitils.swift; sourceTree = "<group>"; };
+		E6EF452A1C5BAC000076256D /* PracticeTopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PracticeTopViewController.swift; sourceTree = "<group>"; };
+		E6EF452C1C5BAC1D0076256D /* LexiconTopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LexiconTopViewController.swift; sourceTree = "<group>"; };
+		E6EF452E1C5BAE0B0076256D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E6F439961C93CE9F005E1966 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage.framework"; sourceTree = "<group>"; };
+		E6F439981C93D5D8005E1966 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = "Pods/../build/Debug-iphoneos/Kingfisher.framework"; sourceTree = "<group>"; };
+		E6F4399A1C94609B005E1966 /* MXParallaxHeader.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MXParallaxHeader.framework; path = "Pods/../build/Debug-iphoneos/MXParallaxHeader.framework"; sourceTree = "<group>"; };
+		E6F4399C1C9460FB005E1966 /* RepeatingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatingDetailViewController.swift; sourceTree = "<group>"; };
+		E6F4399E1C9464BD005E1966 /* RocketHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RocketHeader.xib; sourceTree = "<group>"; };
+		E6F439AD1C9ED7B2005E1966 /* RepeatingPlayerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RepeatingPlayerView.swift; sourceTree = "<group>"; };
+		FB37B3489FDD76C2123769E3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E6EF44F11C5B9E860076256D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6F4399B1C94609B005E1966 /* MXParallaxHeader.framework in Frameworks */,
+				E6F439971C93CE9F005E1966 /* SDWebImage.framework in Frameworks */,
+				DCF087F4E87A5EFBBAC679AE /* Pods.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EF45071C5B9E860076256D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EF45121C5B9E860076256D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		482B4F2F1D82DB68D46C643C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB37B3489FDD76C2123769E3 /* Pods.debug.xcconfig */,
+				36F15EA9C8318225FFA39C08 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B5D4E08638080EDC5D34DAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6F4399A1C94609B005E1966 /* MXParallaxHeader.framework */,
+				E6F439981C93D5D8005E1966 /* Kingfisher.framework */,
+				E6F439961C93CE9F005E1966 /* SDWebImage.framework */,
+				9710CF960F36794DBB594431 /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E61F25F51C5C753900A16F91 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E63A25E81C5DA1F200B7E21C /* BaseViewController.swift */,
+				E6EF44F91C5B9E860076256D /* SampleTopViewController.swift */,
+				E63A25EA1C5DC77200B7E21C /* SampleTaskListViewController.swift */,
+				E63A25EE1C5E52D900B7E21C /* SampleDetailViewController.swift */,
+				E6EF44FB1C5B9E860076256D /* RepeatingTopViewController.swift */,
+				E6F4399C1C9460FB005E1966 /* RepeatingDetailViewController.swift */,
+				E6EF452A1C5BAC000076256D /* PracticeTopViewController.swift */,
+				E6EF452C1C5BAC1D0076256D /* LexiconTopViewController.swift */,
+				E6EF452E1C5BAE0B0076256D /* LoginViewController.swift */,
+				E630542B1C801AB90033BBD2 /* TabbarViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E61F25F61C5C755B00A16F91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E6F4399E1C9464BD005E1966 /* RocketHeader.xib */,
+				E61F25F71C5C758E00A16F91 /* TopNavigationView.swift */,
+				E63A25EC1C5E4CD100B7E21C /* CardView.swift */,
+				E682A02B1C603F6C00F570D0 /* WordCardView.swift */,
+				E63054341C83F07A0033BBD2 /* LexiconCardView.swift */,
+				E63054321C82F2B00033BBD2 /* AudioPlayerView.swift */,
+				E6F439AD1C9ED7B2005E1966 /* RepeatingPlayerView.swift */,
+				E688DA611C66036100069240 /* RepeatingTopTableViewCell.swift */,
+				E630542D1C8023C00033BBD2 /* SampleTaskTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E6EF44EB1C5B9E860076256D = {
+			isa = PBXGroup;
+			children = (
+				E6EF44F61C5B9E860076256D /* TOEFLHermes */,
+				E6EF450D1C5B9E860076256D /* TOEFLHermesTests */,
+				E6EF45181C5B9E860076256D /* TOEFLHermesUITests */,
+				E6EF44F51C5B9E860076256D /* Products */,
+				482B4F2F1D82DB68D46C643C /* Pods */,
+				4B5D4E08638080EDC5D34DAE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E6EF44F51C5B9E860076256D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6EF44F41C5B9E860076256D /* TOEFLHermes.app */,
+				E6EF450A1C5B9E860076256D /* TOEFLHermesTests.xctest */,
+				E6EF45151C5B9E860076256D /* TOEFLHermesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E6EF44F61C5B9E860076256D /* TOEFLHermes */ = {
+			isa = PBXGroup;
+			children = (
+				E6F439A01C967AD5005E1966 /* Api */,
+				E6EF44F71C5B9E860076256D /* AppDelegate.swift */,
+				E6EF45271C5BA1140076256D /* Uitils.swift */,
+				E61F25F61C5C755B00A16F91 /* View */,
+				E61F25F51C5C753900A16F91 /* Controller */,
+				E6EF44FD1C5B9E860076256D /* Main.storyboard */,
+				E6EF45001C5B9E860076256D /* Assets.xcassets */,
+				E60AE9861C9EF58D002C8974 /* ImpactMTStd.otf */,
+				E6EF45021C5B9E860076256D /* LaunchScreen.storyboard */,
+				E6EF45051C5B9E860076256D /* Info.plist */,
+			);
+			path = TOEFLHermes;
+			sourceTree = "<group>";
+		};
+		E6EF450D1C5B9E860076256D /* TOEFLHermesTests */ = {
+			isa = PBXGroup;
+			children = (
+				E6EF450E1C5B9E860076256D /* TOEFLHermesTests.swift */,
+				E6EF45101C5B9E860076256D /* Info.plist */,
+			);
+			path = TOEFLHermesTests;
+			sourceTree = "<group>";
+		};
+		E6EF45181C5B9E860076256D /* TOEFLHermesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E6EF45191C5B9E860076256D /* TOEFLHermesUITests.swift */,
+				E6EF451B1C5B9E860076256D /* Info.plist */,
+			);
+			path = TOEFLHermesUITests;
+			sourceTree = "<group>";
+		};
+		E6F439A01C967AD5005E1966 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E6EF44F31C5B9E860076256D /* TOEFLHermes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EF451E1C5B9E860076256D /* Build configuration list for PBXNativeTarget "TOEFLHermes" */;
+			buildPhases = (
+				ED0093AE600944F5F1EC46EC /* Check Pods Manifest.lock */,
+				E6EF44F01C5B9E860076256D /* Sources */,
+				E6EF44F11C5B9E860076256D /* Frameworks */,
+				E6EF44F21C5B9E860076256D /* Resources */,
+				D1910C29A2A4D1E0B2B7A2CA /* Embed Pods Frameworks */,
+				3F4F750EE058F76FFD4120C4 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TOEFLHermes;
+			productName = TOEFLHermes;
+			productReference = E6EF44F41C5B9E860076256D /* TOEFLHermes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E6EF45091C5B9E860076256D /* TOEFLHermesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EF45211C5B9E860076256D /* Build configuration list for PBXNativeTarget "TOEFLHermesTests" */;
+			buildPhases = (
+				E6EF45061C5B9E860076256D /* Sources */,
+				E6EF45071C5B9E860076256D /* Frameworks */,
+				E6EF45081C5B9E860076256D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6EF450C1C5B9E860076256D /* PBXTargetDependency */,
+			);
+			name = TOEFLHermesTests;
+			productName = TOEFLHermesTests;
+			productReference = E6EF450A1C5B9E860076256D /* TOEFLHermesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E6EF45141C5B9E860076256D /* TOEFLHermesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E6EF45241C5B9E860076256D /* Build configuration list for PBXNativeTarget "TOEFLHermesUITests" */;
+			buildPhases = (
+				E6EF45111C5B9E860076256D /* Sources */,
+				E6EF45121C5B9E860076256D /* Frameworks */,
+				E6EF45131C5B9E860076256D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6EF45171C5B9E860076256D /* PBXTargetDependency */,
+			);
+			name = TOEFLHermesUITests;
+			productName = TOEFLHermesUITests;
+			productReference = E6EF45151C5B9E860076256D /* TOEFLHermesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E6EF44EC1C5B9E860076256D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = PumpkinCat;
+				TargetAttributes = {
+					E6EF44F31C5B9E860076256D = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = W5EV9TDCWX;
+					};
+					E6EF45091C5B9E860076256D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E6EF44F31C5B9E860076256D;
+					};
+					E6EF45141C5B9E860076256D = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = E6EF44F31C5B9E860076256D;
+					};
+				};
+			};
+			buildConfigurationList = E6EF44EF1C5B9E860076256D /* Build configuration list for PBXProject "TOEFLHermes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E6EF44EB1C5B9E860076256D;
+			productRefGroup = E6EF44F51C5B9E860076256D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E6EF44F31C5B9E860076256D /* TOEFLHermes */,
+				E6EF45091C5B9E860076256D /* TOEFLHermesTests */,
+				E6EF45141C5B9E860076256D /* TOEFLHermesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E6EF44F21C5B9E860076256D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EF45041C5B9E860076256D /* LaunchScreen.storyboard in Resources */,
+				E60AE9871C9EF58D002C8974 /* ImpactMTStd.otf in Resources */,
+				E6EF45011C5B9E860076256D /* Assets.xcassets in Resources */,
+				E6F4399F1C9464BD005E1966 /* RocketHeader.xib in Resources */,
+				E6EF44FF1C5B9E860076256D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EF45081C5B9E860076256D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EF45131C5B9E860076256D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F4F750EE058F76FFD4120C4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1910C29A2A4D1E0B2B7A2CA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED0093AE600944F5F1EC46EC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6EF44F01C5B9E860076256D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E60AE9881C9EF59B002C8974 /* ImpactMTStd.otf in Sources */,
+				E630542E1C8023C00033BBD2 /* SampleTaskTableViewCell.swift in Sources */,
+				E61F25F81C5C758E00A16F91 /* TopNavigationView.swift in Sources */,
+				E6F439AE1C9ED7B2005E1966 /* RepeatingPlayerView.swift in Sources */,
+				E6F4399D1C9460FB005E1966 /* RepeatingDetailViewController.swift in Sources */,
+				E688DA621C66036100069240 /* RepeatingTopTableViewCell.swift in Sources */,
+				E6EF452F1C5BAE0B0076256D /* LoginViewController.swift in Sources */,
+				E6EF44FC1C5B9E860076256D /* RepeatingTopViewController.swift in Sources */,
+				E6EF45281C5BA1140076256D /* Uitils.swift in Sources */,
+				E6EF44F81C5B9E860076256D /* AppDelegate.swift in Sources */,
+				E63A25E91C5DA1F200B7E21C /* BaseViewController.swift in Sources */,
+				E682A02C1C603F6C00F570D0 /* WordCardView.swift in Sources */,
+				E630542C1C801AB90033BBD2 /* TabbarViewController.swift in Sources */,
+				E6EF452B1C5BAC000076256D /* PracticeTopViewController.swift in Sources */,
+				E63A25EB1C5DC77200B7E21C /* SampleTaskListViewController.swift in Sources */,
+				E6EF44FA1C5B9E860076256D /* SampleTopViewController.swift in Sources */,
+				E63054331C82F2B00033BBD2 /* AudioPlayerView.swift in Sources */,
+				E63A25ED1C5E4CD100B7E21C /* CardView.swift in Sources */,
+				E63054351C83F07A0033BBD2 /* LexiconCardView.swift in Sources */,
+				E63A25EF1C5E52D900B7E21C /* SampleDetailViewController.swift in Sources */,
+				E6EF452D1C5BAC1E0076256D /* LexiconTopViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EF45061C5B9E860076256D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EF450F1C5B9E860076256D /* TOEFLHermesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6EF45111C5B9E860076256D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E6EF451A1C5B9E860076256D /* TOEFLHermesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6EF450C1C5B9E860076256D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6EF44F31C5B9E860076256D /* TOEFLHermes */;
+			targetProxy = E6EF450B1C5B9E860076256D /* PBXContainerItemProxy */;
+		};
+		E6EF45171C5B9E860076256D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6EF44F31C5B9E860076256D /* TOEFLHermes */;
+			targetProxy = E6EF45161C5B9E860076256D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E6EF44FD1C5B9E860076256D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6EF44FE1C5B9E860076256D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E6EF45021C5B9E860076256D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E6EF45031C5B9E860076256D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E6EF451C1C5B9E860076256D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E6EF451D1C5B9E860076256D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E6EF451F1C5B9E860076256D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB37B3489FDD76C2123769E3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = TOEFLHermes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stu.PumpkinCat.TOEFLHermes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E6EF45201C5B9E860076256D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36F15EA9C8318225FFA39C08 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				INFOPLIST_FILE = TOEFLHermes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stu.PumpkinCat.TOEFLHermes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E6EF45221C5B9E860076256D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TOEFLHermesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stu.PumpkinCat.TOEFLHermesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TOEFLHermes.app/TOEFLHermes";
+			};
+			name = Debug;
+		};
+		E6EF45231C5B9E860076256D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TOEFLHermesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stu.PumpkinCat.TOEFLHermesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TOEFLHermes.app/TOEFLHermes";
+			};
+			name = Release;
+		};
+		E6EF45251C5B9E860076256D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TOEFLHermesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stu.PumpkinCat.TOEFLHermesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TOEFLHermes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E6EF45261C5B9E860076256D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TOEFLHermesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stu.PumpkinCat.TOEFLHermesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TOEFLHermes;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E6EF44EF1C5B9E860076256D /* Build configuration list for PBXProject "TOEFLHermes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EF451C1C5B9E860076256D /* Debug */,
+				E6EF451D1C5B9E860076256D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EF451E1C5B9E860076256D /* Build configuration list for PBXNativeTarget "TOEFLHermes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EF451F1C5B9E860076256D /* Debug */,
+				E6EF45201C5B9E860076256D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EF45211C5B9E860076256D /* Build configuration list for PBXNativeTarget "TOEFLHermesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EF45221C5B9E860076256D /* Debug */,
+				E6EF45231C5B9E860076256D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6EF45241C5B9E860076256D /* Build configuration list for PBXNativeTarget "TOEFLHermesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6EF45251C5B9E860076256D /* Debug */,
+				E6EF45261C5B9E860076256D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E6EF44EC1C5B9E860076256D /* Project object */;
+}

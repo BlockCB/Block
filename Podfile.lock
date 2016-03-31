@@ -1,0 +1,18 @@
+PODS:
+  - Jukebox (0.1.1)
+  - MXParallaxHeader (0.5.0)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+
+DEPENDENCIES:
+  - Jukebox (~> 0.1.0)
+  - MXParallaxHeader
+  - SDWebImage (~> 3.7)
+
+SPEC CHECKSUMS:
+  Jukebox: 8d26135016a69ca3f0581a6b42755f0fcb9202b0
+  MXParallaxHeader: c7dfdf8d769a8eb868a431ec3aeaf994a147b8bc
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+
+COCOAPODS: 0.39.0
